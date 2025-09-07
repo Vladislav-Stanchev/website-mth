@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/jpg" href="favicon MTH.jpg">
-    <title>MTH: Möbeltransport mit Qualität.</title>
+    <link rel="icon" type="image/jpg" href="images/favicon MTH.jpg">
+    <title>MTH: Umzüge und Тransport.</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,24 +12,39 @@
         }
        .container {
             display: flex;
-            justify-content: center; /* центрира цялото съдържание в страницата */
-            gap: 50px; /* разстояние между лявата и дясната колона */
+            justify-content: center;
+            gap: 50px;
         }
         .left, .right {
             display: flex;
             flex-direction: column;
-            align-items: center; /* центрира съдържанието в колоната */
+            align-items: center;
         }
         .right img {
             display: block;
-            max-width: 180px; /* регулирай размера */
-            margin-bottom: 20px; /* разстояние между снимките */
+            max-width: 180px;
+            margin-bottom: 20px;
+        }
+
+        /* responsive стилове */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            .right img {
+                max-width: 100%;
+                height: auto;
+            }
+            body {
+                margin: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Ляво съдържание -->
         <div class="left">
             <h1>MTH Dienstleistungen</h1>
             <a href="umzuege.html">Umzüge</a><br><br>
@@ -38,17 +54,13 @@
             <a href="Reinigung.html">Reinigung</a>
             <br><br>
             <h1>Kontaktieren Sie uns</h1>
-            <h1>Tel: 015201377240</h1>
-            <h2><a href="mailto:v.st.stanchev@gmail.com">E-Mail: v.st.stanchev@gmail.com</a></h2>
+            <h3>Tel: 015201377240</h3>
+            <h3><a href="mailto:v.st.stanchev@gmail.com">E-Mail: v.st.stanchev@gmail.com</a></h3>
         </div>
-
-        <!-- Дясно със снимки -->
         <div class="right">
-            <img src="image1.jpg" alt="Bild 1">
-            <img src="image2.jpg" alt="Bild 2">
+            <img src="images/image1.jpg" alt="Bild 1">
+            <img src="images/image2.jpg" alt="Bild 2">
         </div>
     </div>
 </body>
 </html>
-
-
