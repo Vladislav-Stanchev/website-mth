@@ -1,70 +1,129 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <link rel="icon" type="image/jpg" href="favicon MTH.jpg">
-    <title>MTH: Möbel Тransport Hessen.</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MTH - Möbel Transport Hessen</title>
+
+    <meta name="description"
+          content="MTH Möbel Transport Hessen - Umzüge, Transport, Kurierdienst, Entrümpelung, Gartenarbeit und Reinigung in Hessen.">
+
+    <link rel="icon" type="image/jpg" href="favicon MTH 2026.jpg">
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-       .container {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-        }
-        .left, .right {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .right img {
-            display: block;
-            max-width: 180px;
-            margin-bottom: 20px;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            color: #333;
         }
 
-        /* responsive стилове */
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            max-width: 900px;
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .services a {
+            display: block;
+            margin: 15px 0;
+            font-size: 20px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        .services a:hover {
+            text-decoration: underline;
+        }
+
+        .contact {
+            margin-top: 40px;
+        }
+
+        .contact a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-                gap: 20px;
+            .logo img {
+                max-width: 220px;
             }
-            .right img {
-                max-width: 100%;
-                height: auto;
+
+            .services a {
+                font-size: 18px;
             }
-            body {
-                margin: 10px;
+
+            h1 {
+                font-size: 28px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="left">
-            <h1>Möbel Тransport Hessen</h1>
-            <a href="umzuege.html">Umzüge</a><br><br>
-            <a href="Transport_und_Kurier.html">Transport und Kurier</a><br><br>
-            <a href="Entruempelung.html">Entrümpelung</a><br><br>
-            <a href="Garten.html">Garten</a><br><br>
-            <a href="Reinigung.html">Reinigung</a>
-            <br><br>
-            <h1>Kontaktieren Sie uns</h1>
-            <h3>Tel: 015201377240</h3>
-            <h3><a href="mailto:v.st.stanchev@gmail.com">E-Mail: v.st.stanchev@gmail.com</a></h3>
-        </div>
-        <div class="right">
-            <img src="image1.jpg" alt="Bild 1">
-            <img src="image2.jpg" alt="Bild 2">
-        </div>
+
+    <div class="logo">
+        <img src="MTH Logo 2026.jpg" alt="MTH Möbel Transport Hessen Logo">
     </div>
+
+    <div class="container">
+
+        <h1>MTH Möbel Transport Hessen</h1>
+
+        <div class="services">
+            <a href="umzuege.html">Umzüge</a>
+
+            <a href="Transport_und_Kurier.html">
+                Transport und Kurier
+            </a>
+
+            <a href="Entruempelung.html">
+                Entrümpelung
+            </a>
+
+           
+        </div>
+
+        <div class="contact">
+            <h2>Kontaktieren Sie uns</h2>
+
+            <h3>
+                <a href="tel:+4915201377240">
+                    Tel: 01520 1377240
+                </a>
+            </h3>
+
+            <h3>
+                <a href="mailto:v.st.stanchev@gmail.com">
+                    E-Mail: v.st.stanchev@gmail.com
+                </a>
+            </h3>
+        </div>
+
+    </div>
+
 </body>
 </html>
-
-
-
 
