@@ -1,40 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>MTH - Möbel Transport Hessen</title>
-
     <meta name="description"
-          content="Umzüge, Entrümpelung">
-
+          content="Umzüge, Entrümpelung, Transport">
     <link rel="icon" type="image/jpg" href="favicon MTH 2026.jpg">
 
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             text-align: center;
             background-color: #ffffff;
             color: #333;
         }
 
+        /* Logo als Banner */
         .logo {
-            margin-bottom: 30px;
+            width: 100%;
+            overflow: hidden; /* Verhindert Scrollbars */
+            background-color: #f5f5f5; /* Optionaler Hintergrund */
         }
 
         .logo img {
-            max-width: 900px;
             width: 100%;
             height: auto;
+            display: block;
+            max-width: none; /* Entfernt Desktop-Beschränkung */
         }
 
         .container {
             max-width: 700px;
-            margin: 0 auto;
+            margin: 20px auto;
+            padding: 0 10px;
         }
 
         h1 {
@@ -67,10 +68,10 @@
             text-decoration: underline;
         }
 
+        /* Mobile Optimierung */
         @media (max-width: 768px) {
-            .logo img {
-                max-width: 500px;
-                width: 100%;
+            .container {
+                padding: 0 5px;
             }
 
             .services a {
@@ -85,46 +86,26 @@
 </head>
 <body>
 
+    <!-- Logo als breites Banner -->
     <div class="logo">
         <img src="MTH Logo 2026 1.jpg" alt="MTH Möbel Transport Hessen Logo">
     </div>
 
     <div class="container">
-
         <h1>MTH Möbel Transport Hessen</h1>
 
         <div class="services">
             <a href="umzuege.html">Umzüge</a>
-
-            <a href="Transport_und_Kurier.html">
-                Transport und Kurier
-            </a>
-
-            <a href="Entruempelung.html">
-                Entrümpelung
-            </a>
-
-           
+            <a href="Entruempelung.html">Entrümpelung</a>
+            <a href="Transport_und_Kurier.html">Transport und Kurier</a>
         </div>
 
         <div class="contact">
             <h2>Kontaktieren Sie uns</h2>
-
-            <h3>
-                <a href="tel:+4915201377240">
-                    Tel: 01520 1377240
-                </a>
-            </h3>
-
-            <h3>
-                <a href="mailto:v.st.stanchev@gmail.com">
-                    E-Mail: v.st.stanchev@gmail.com
-                </a>
-            </h3>
+            <h3><a href="tel:+4915201377240">Tel: 01520 1377240</a></h3>
+            <h3><a href="mailto:v.st.stanchev@gmail.com">E-Mail: v.st.stanchev@gmail.com</a></h3>
         </div>
-
     </div>
 
 </body>
 </html>
-
