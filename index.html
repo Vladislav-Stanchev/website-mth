@@ -47,7 +47,7 @@
             margin: 15px 0;
             font-size: 40px;
             text-decoration: none;
-            color: #111111;
+            color: #f2f549;
             font-weight: bold;
         }
 
@@ -55,12 +55,18 @@
             text-decoration: underline;
         }
 
+        .services {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         .contact {
             margin-top: 40px;
         }
 
         .contact a {
-            color: #111111;
+            color: #f2f549;
             text-decoration: none;
         }
 
@@ -83,13 +89,13 @@
             }
         }
 
-        .servic-btn{
+        .service-btn{
     display: block;
-    width: 360px;
+    width: 300px;
     margin: 2px auto;
     padding: 14px;
 
-    background: linear-gradient(135deg, #1f4e79, #2e75b6);
+    background: linear-gradient(135deg, #2c2c2c, #2c2c2c);
 
     color: white;
     text-decoration: none;
@@ -101,6 +107,25 @@
 
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: 0.25s;
+}
+
+.contact-btn {
+    display: block;
+    width: 420px;          /* по-широк бутон */
+    margin: 10px auto;
+    padding: 20px;         /* по-висок бутон */
+
+    background: linear-gradient(135deg, #2c2c2c, #2c2c2c);
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 999px;  /* елипса */
+    font-size: 28px;       /* по-голям текст */
+    font-weight: bold;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 
 .service-btn:hover {
@@ -123,13 +148,13 @@
             <a href="umzuege.html" class="service-btn">Umzug</a>
             <a href="Entruempelung.html" class="service-btn">Entrümpelung</a>
             <a href="Transport_und_Kurier.html" class="service-btn">Möbelmontage</a>
-            <a href="Transport_und_Kurier.html" class="service-btn">Transoprt</a>
+            <a href="Transport_und_Kurier.html" class="service-btn">Transport</a>
         </div>
 
         <div class="contact">
             <h2>Kontakt</h2>
-            <h3><a href="tel:+4915201377240" class="service-btn">Anrufen</a></h3>
-            <h3><a href="mailto:v.st.stanchev@gmail.com" class="service-btn">E-Mail senden</a></h3>
+            <h3><a href="tel:+4915201377240" class="contact-btn">Anrufen</a></h3>
+            <h3><a href="mailto:v.st.stanchev@gmail.com" class="contact-btn">E-Mail senden</a></h3>
             <h3>"Möbel Transport Hessen"</h3>
         </div>
     </div>
